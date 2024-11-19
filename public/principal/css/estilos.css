@@ -1,0 +1,34 @@
+.input {
+    width: 100%;
+    border: none;
+    background: white;
+    padding: 15px;
+    border-bottom: 2px solid rgb(238, 238, 238);
+    border-right: 2px solid rgb(238, 238, 238);
+    transition: all 0.3s;
+    color: rgb(7, 7, 7) !important;
+    font-weight: 600;
+    font-size: 17px;
+    box-shadow: 1px 1px 2px rgb(238, 238, 238);
+    margin-bottom: -5px;
+    outline: none !important;
+}
+.input:focus {
+    border-bottom: 2px solid rgba(98, 191, 253, 0.644);
+    border-right: 2px solid rgba(98, 191, 253, 0.644);
+}
+
+.input::placeholder {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.error__text {
+    color: red;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.input__select {
+    font-size: 17px;
+}

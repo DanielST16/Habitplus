@@ -1,0 +1,7 @@
+const app = {
+    data() {
+        return {
+
+        }
+    },
+}
